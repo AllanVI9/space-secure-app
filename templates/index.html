@@ -107,7 +107,7 @@
       </h1>
 
       <p class="lead mt-3">
-        Proteção criptográfica para dados espaciais e telemetria de satélites.
+        Sistema de criptografia avançada para imagens de satélites, telemetria orbital e dados espaciais sensíveis.
       </p>
 
     </div>
@@ -121,12 +121,13 @@
           <h3 class="section-title">Problema</h3>
 
           <p>
-            Satélites geram diariamente grandes volumes de dados sensíveis,
-            incluindo telemetria, imagens orbitais e informações científicas.
+            Satélites capturam diariamente grandes volumes de dados sensíveis, incluindo
+            imagens de observação da Terra, telemetria orbital e informações científicas críticas.
           </p>
 
           <p>
-            O vazamento ou alteração desses dados pode comprometer operações espaciais críticas.
+            Sem proteção adequada, esses dados podem ser interceptados, alterados ou vazados,
+            comprometendo missões espaciais e operações estratégicas.
           </p>
 
         </div>
@@ -140,11 +141,13 @@
           <h3 class="section-title">Solução</h3>
 
           <p>
-            O SpaceSecure utiliza criptografia para proteger arquivos antes do armazenamento ou compartilhamento.
+            O SpaceSecure implementa criptografia aplicada diretamente em imagens de satélites e dados orbitais,
+            garantindo segurança antes do armazenamento ou transmissão.
           </p>
 
           <p>
-            Garantindo confidencialidade, integridade e segurança dos dados espaciais.
+            O sistema assegura confidencialidade, integridade e autenticidade dos dados espaciais,
+            protegendo informações críticas contra acessos não autorizados.
           </p>
 
         </div>
@@ -155,17 +158,29 @@
 
     <div class="card card-custom p-4 mt-5">
 
-      <h3 class="section-title text-center">Demonstração</h3>
+      <h3 class="section-title text-center">Demonstração — Criptografia de Imagens de Satélite</h3>
+
+      <p class="text-center mb-4">
+        Envie uma imagem capturada por satélite ou arquivo de telemetria para aplicar criptografia de proteção.
+      </p>
 
       <form action="/encrypt" method="POST" enctype="multipart/form-data">
 
         <div class="upload-box">
 
+          <p class="mb-3">
+            📡 Upload de imagem orbital ou arquivo de dados espaciais
+          </p>
+
           <input type="file" class="form-control mb-3" name="file" required>
 
           <button type="submit" class="btn btn-space px-4">
-            🔒 Criptografar Arquivo
+            🔒 Criptografar Imagem de Satélite
           </button>
+
+          <p class="mt-3 small text-secondary">
+            Os dados serão processados e protegidos com criptografia antes de qualquer armazenamento ou transmissão.
+          </p>
 
         </div>
 
@@ -181,7 +196,10 @@
 
           <h4>🛰️ Indústria Espacial</h4>
 
-          <p>Proteção de telemetria, imagens orbitais e dados de missão.</p>
+          <p>
+            Proteção de imagens de observação da Terra, sensores orbitais,
+            telemetria de satélites e dados de missão crítica.
+          </p>
 
         </div>
 
